@@ -11,8 +11,6 @@ import type { ServerConfig } from '@ioc:Adonis/Core/Server'
 import type { LoggerConfig } from '@ioc:Adonis/Core/Logger'
 import type { ProfilerConfig } from '@ioc:Adonis/Core/Profiler'
 import type { ValidatorConfig } from '@ioc:Adonis/Core/Validator'
-const providers = ['@adonisjs/lucid/providers/LucidProvider']
-const aceProviders = ['@adonisjs/lucid/providers/MigrationsProvider']
 /*
 |--------------------------------------------------------------------------
 | Application secret key
