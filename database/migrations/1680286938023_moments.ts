@@ -1,7 +1,7 @@
 import BaseSchema from '@ioc:Adonis/Lucid/Schema'
 
 export default class extends BaseSchema {
-  protected tableName = 'postgresapis'
+  protected tableName = 'moments'
 
   public async up() {
     this.schema.createTable(this.tableName, (table) => {
@@ -9,6 +9,7 @@ export default class extends BaseSchema {
       table.string('title')
       table.string('description')
       table.string('image')
+
       /**
        * Uses timestamptz for PostgreSQL and DATETIME2 for MSSQL
        */
